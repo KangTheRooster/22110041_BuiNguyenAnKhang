@@ -51,6 +51,7 @@ Install and run the website
 ![alt text](image-5.png)
 ![alt text](image-6.png)
 Use http://localhost:8025/install.php?install=yes to open website
+
 ![alt text](image-7.png)
 ### Install SQL map
 
@@ -58,22 +59,32 @@ Use git clone https://github.com/sqlmapproject/sqlmap.git to clone sqlmap to you
 
 ![alt text](image-8.png)
 ![alt text](image-9.png)
+
 ### Question 1:
 We must need a place where we can get the database by inject our code and login seems like a great choice
+
 ![alt text](image-10.png)
 Now use F12 to inspect and get cookies
+
 ![alt text](image-12.png)
 Use this comment to get database
+
 ![alt text](image.png)
 We will get the results
+
 ![alt text](image-1.png)
 ### Question 2
 To get tables we use 
+
 ![alt text](image-11.png)
 ![alt text](image-13.png)
 ![alt text](image-14.png)
 ![alt text](image-15.png)
+
 And now to get user's accounts we use
+
 ![alt text](image-16.png)
+
 We will get these results
+
 ![alt text](image-17.png)
